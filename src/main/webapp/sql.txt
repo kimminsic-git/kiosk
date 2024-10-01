@@ -1,0 +1,205 @@
+CREATE TABLE Menu_2024_10 (
+    cofnum NUMBER(3) PRIMARY KEY,
+    cofname VARCHAR2(50),
+    price number(8),
+    catego VARCHAR2(10),
+    tem VARCHAR2(7),
+    cofsell NUMBER(6)
+);
+
+SELECT * FROM Menu_2024_10;
+DROP TABLE Menu_2024_10;
+
+-- 커피 메뉴
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (1, '아메리카노', 4000, 'Coffee', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (2, '카페라떼', 4500, 'Coffee', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (3, '카푸치노', 4500, 'Coffee', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (4, '모카', 5000, 'Coffee', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (5, '에스프레소', 3500, 'Coffee', 'Hot', 0);
+
+-- 프라페 메뉴
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (6, '초코 프라페', 4500, 'Prafe', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (7, '바닐라 프라페', 4500, 'Prafe', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (8, '카라멜 프라페', 4500, 'Prafe', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (9, '녹차 프라페', 4500, 'Prafe', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (10, '딸기 프라페', 4500, 'Prafe', 'Ice', 0);
+
+-- 차 메뉴
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (11, '홍차', 4000, 'Tea', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (12, '녹차', 4000, 'Tea', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (13, '우롱차', 4500, 'Tea', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (14, '허브차', 4500, 'Tea', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (15, '아이스티', 4000, 'Tea', 'Ice', 0);
+
+-- 디저트 메뉴
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (16, '초코케이크', 6000, 'Dessert', 'All', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (17, '치즈케이크', 6500, 'Dessert', 'All', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (18, '타르트', 5500, 'Dessert', 'All', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (19, '마카롱', 3000, 'Dessert', 'All', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (20, '쿠키', 2500, 'Dessert', 'All', 0);
+
+-- 음료 메뉴 (스무디)
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (21, '망고 스무디', 5000, 'Drink', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (22, '딸기 스무디', 5000, 'Drink', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (23, '블루베리 스무디', 5000, 'Drink', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (24, '초코 바나나 스무디', 5000, 'Drink', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (25, '복숭아 스무디', 5000, 'Drink', 'Ice', 0);
+
+-- 추가 메뉴 항목
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (26, '밀크쉐이크', 5000, 'Drink', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (27, '초코 쉐이크', 5000, 'Drink', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (28, '커스터드 크림', 4000, 'Dessert', 'All', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (29, '팬케이크', 7000, 'Dessert', 'All', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (30, '타르트 타탱', 6500, 'Dessert', 'All', 0);
+
+-- 추가 메뉴 계속
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (31, '카라멜 마키아토', 5000, 'Coffee', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (32, '블랙 커피', 3500, 'Coffee', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (33, '핫초코', 4500, 'Coffee', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (34, '레모네이드', 4000, 'Drink', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (35, '민트 초코 프라페', 4500, 'Prafe', 'Ice', 0);
+
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (36, '체리 스무디', 5000, 'Drink', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (37, '아이스 카라멜 라떼', 4500, 'Coffee', 'Ice', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (38, '딸기 요거트', 6000, 'Dessert', 'All', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (39, '자몽 차', 4000, 'Tea', 'Hot', 0);
+INSERT INTO Menu_2024_10 (cofnum, cofname, price, catego, tem, cofsell) VALUES (40, '치즈 스콘', 3000, 'Dessert', 'All', 0);
+
+UPDATE Menu_2024_10 set cofsell = 200 WHERE cofnum = 6;
+
+SELECT * FROM Menu_2024_10 WHERE catego = 'Coffee';
+SELECT * FROM Menu_2024_10 WHERE catego = 'Tea';
+SELECT * FROM Menu_2024_10 WHERE catego = 'Drink';
+SELECT * FROM Menu_2024_10 WHERE catego = 'Dessert';
+SELECT * FROM Menu_2024_10 WHERE catego = 'Prafe';
+
+-- 주문 정보를 저장하는 테이블 생성
+CREATE TABLE Order_2024_10 (
+    orderid NUMBER PRIMARY KEY,  -- 주문 ID (기본 키)
+    orderdat DATE,                -- 주문 날짜
+    totalprice NUMBER,             -- 주문 총 가격
+    packing VARCHAR2(255)
+);
+-- 주문 상세 정보를 저장하는 테이블 생성
+CREATE TABLE orderde_2024_10 (
+    ordeid NUMBER PRIMARY KEY,    -- 상세 ID (기본 키)
+    orderid NUMBER,               -- 주문 ID (외래 키)
+    cofnum NUMBER,                -- 메뉴 ID (외래 키)
+    count NUMBER,                 -- 주문 수량
+    FOREIGN KEY (orderid) REFERENCES Order_2024_10(orderid),  -- Order_2024_10 테이블과 연결
+    FOREIGN KEY (cofnum) REFERENCES Menu_2024_10(cofnum)      -- Menu_2024_10 테이블과 연결
+);
+
+-- 예시 데이터: 주문 1 추가
+INSERT INTO Order_2024_10 (orderid, orderdat, totalprice) VALUES (1, TO_DATE('2024-10-01', 'YYYY-MM-DD'), 0,'mall');
+-- 예시 데이터: 주문 2 추가
+INSERT INTO Order_2024_10 (orderid, orderdat, totalprice) VALUES (2, TO_DATE('2024-10-02', 'YYYY-MM-DD'), 0,'pack');
+
+-- 주문 1의 상세 내역 추가
+INSERT INTO orderde_2024_10 (ordeid, orderid, cofnum, count) VALUES (1, 1, 1, 2);  -- 아메리카노 2잔
+INSERT INTO orderde_2024_10 (ordeid, orderid, cofnum, count) VALUES (2, 1, 4, 1);  -- 모카 1잔
+INSERT INTO orderde_2024_10 (ordeid, orderid, cofnum, count) VALUES (3, 1, 16, 1); -- 초코케이크 1개
+INSERT INTO orderde_2024_10 (ordeid, orderid, cofnum, count) VALUES (6, 1, 12, 1);
+
+-- 주문 2의 상세 내역 추가
+INSERT INTO orderde_2024_10 (ordeid, orderid, cofnum, count) VALUES (4, 2, 6, 2);  -- 초코 프라페 2잔
+INSERT INTO orderde_2024_10 (ordeid, orderid, cofnum, count) VALUES (5, 2, 19, 1); -- 마카롱 1개
+
+-- 전체 주문 데이터 조회
+SELECT * FROM Order_2024_10;
+drop table Order_2024_10;
+
+-- 전체 주문 상세 데이터 조회
+SELECT * FROM orderde_2024_10;
+drop table orderde_2024_10;
+
+-- 가장 최근 주문의 totalprice 업데이트
+UPDATE Order_2024_10
+SET totalprice = (
+    SELECT SUM(m.price * od.count)  -- 메뉴 가격과 수량의 곱을 합산
+    FROM orderde_2024_10 od
+    JOIN Menu_2024_10 m ON od.cofnum = m.cofnum  -- 메뉴 정보를 조인
+    WHERE od.orderid = Order_2024_10.orderid  -- 해당 주문의 orderid와 일치
+)
+WHERE orderid = (SELECT MAX(orderid) FROM Order_2024_10);  -- 가장 큰 orderid를 가진 주문
+
+-- 가장 최근 주문에 대한 cofsell 업데이트
+UPDATE Menu_2024_10 m
+SET cofsell = cofsell + (
+    SELECT SUM(od.count)  -- 주문 수량의 합계
+    FROM orderde_2024_10 od
+    WHERE od.cofnum = m.cofnum  -- 해당 메뉴 ID와 일치
+    AND od.orderid = (SELECT MAX(orderid) FROM Order_2024_10)  -- 가장 최근 주문의 orderid
+)
+WHERE cofnum IN (
+    SELECT DISTINCT cofnum  -- 주문 상세에 있는 메뉴 ID를 선택
+    FROM orderde_2024_10
+    WHERE orderid = (SELECT MAX(orderid) FROM Order_2024_10)  -- 가장 최근 주문의 orderid
+);
+
+CREATE TABLE remain_2024_10 (
+    cofid NUMBER(3) PRIMARY KEY,
+    cofname VARCHAR2(50),
+    price number(8),
+    sellable VARCHAR2(1),
+    remaincount NUMBER(6)
+);
+
+-- 커피 메뉴
+INSERT INTO remain_2024_10 VALUES (1, '아메리카노', 4000, 'Y', 120);
+INSERT INTO remain_2024_10 VALUES (2, '카페라떼', 4500, 'Y', 50);
+INSERT INTO remain_2024_10 VALUES (3, '카푸치노', 4500, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (4, '모카', 5000, 'Y', 80);
+INSERT INTO remain_2024_10 VALUES (5, '에스프레소', 3500, 'Y', 200);
+
+-- 프라페 메뉴
+INSERT INTO remain_2024_10 VALUES (6, '초코 프라페', 4500, 'Y', 150);
+INSERT INTO remain_2024_10 VALUES (7, '바닐라 프라페', 4500, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (8, '카라멜 프라페', 4500, 'Y', 175);
+INSERT INTO remain_2024_10 VALUES (9, '녹차 프라페', 4500, 'Y', 95);
+INSERT INTO remain_2024_10 VALUES (10, '딸기 프라페', 4500, 'N', 0);
+
+-- 차 메뉴
+INSERT INTO remain_2024_10 VALUES (11, '홍차', 4000, 'Y', 200);
+INSERT INTO remain_2024_10 VALUES (12, '녹차', 4000, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (13, '우롱차', 4500, 'Y', 130);
+INSERT INTO remain_2024_10 VALUES (14, '허브차', 4500, 'Y', 60);
+INSERT INTO remain_2024_10 VALUES (15, '아이스티', 4000, 'Y', 25);
+
+-- 디저트 메뉴
+INSERT INTO remain_2024_10 VALUES (16, '초코케이크', 6000, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (17, '치즈케이크', 6500, 'Y', 180);
+INSERT INTO remain_2024_10 VALUES (18, '타르트', 5500, 'Y', 90);
+INSERT INTO remain_2024_10 VALUES (19, '마카롱', 3000, 'Y', 50);
+INSERT INTO remain_2024_10 VALUES (20, '쿠키', 2500, 'Y', 200);
+
+-- 음료 메뉴 (스무디)
+INSERT INTO remain_2024_10 VALUES (21, '망고 스무디', 5000, 'Y', 45);
+INSERT INTO remain_2024_10 VALUES (22, '딸기 스무디', 5000, 'Y', 120);
+INSERT INTO remain_2024_10 VALUES (23, '블루베리 스무디', 5000, 'Y', 75);
+INSERT INTO remain_2024_10 VALUES (24, '초코 바나나 스무디', 5000, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (25, '복숭아 스무디', 5000, 'Y', 30);
+
+-- 추가 메뉴 항목
+INSERT INTO remain_2024_10 VALUES (26, '밀크쉐이크', 5000, 'Y', 140);
+INSERT INTO remain_2024_10 VALUES (27, '초코 쉐이크', 5000, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (28, '커스터드 크림', 4000, 'Y', 60);
+INSERT INTO remain_2024_10 VALUES (29, '팬케이크', 7000, 'Y', 25);
+INSERT INTO remain_2024_10 VALUES (30, '타르트 타탱', 6500, 'Y', 85);
+
+-- 추가 메뉴 계속
+INSERT INTO remain_2024_10 VALUES (31, '카라멜 마키아토', 5000, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (32, '블랙 커피', 3500, 'Y', 100);
+INSERT INTO remain_2024_10 VALUES (33, '핫초코', 4500, 'Y', 40);
+INSERT INTO remain_2024_10 VALUES (34, '레모네이드', 4000, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (35, '민트 초코 프라페', 4500, 'Y', 175);
+
+INSERT INTO remain_2024_10 VALUES (36, '체리 스무디', 5000, 'Y', 60);
+INSERT INTO remain_2024_10 VALUES (37, '아이스 카라멜 라떼', 4500, 'Y', 95);
+INSERT INTO remain_2024_10 VALUES (38, '딸기 요거트', 6000, 'N', 0);
+INSERT INTO remain_2024_10 VALUES (39, '자몽 차', 4000, 'Y', 30);
+INSERT INTO remain_2024_10 VALUES (40, '치즈 스콘', 3000, 'N', 0);
+
+select * from remain_2024_10;
+SELECT * FROM remain_2024_10 a JOIN Menu_2024_10 b ON a.cofname = b.cofname;
+commit;

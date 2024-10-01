@@ -1,0 +1,79 @@
+/* headerstyle.css */
+
+/* 전체 바디 스타일 */
+body {
+    font-family: Arial, sans-serif; /* 폰트 설정 */
+    background-color: #f4f4f4; /* 배경 색 */
+    margin: 0; /* 기본 마진 제거 */
+    padding: 0; /* 패딩 추가 */
+}
+
+/* 제목 스타일 */
+h1 {
+    text-align: center; /* 중앙 정렬 */
+    color: #333; /* 텍스트 색 */
+    margin-bottom: 20px; /* 아래쪽 마진 */
+}
+
+/* 내비게이션 바 스타일 */
+nav {
+    background-color: #fff; /* 배경 색 */
+    border-radius: 5px; /* 모서리 둥글게 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 그림자 효과 */
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+/* 내비게이션 메뉴 항목 스타일 */
+nav p {
+    height: 50px;
+    flex: 1;
+    margin: 0;
+}
+
+/* 링크 스타일 */
+nav a {
+	font-size: 13px;
+    text-decoration: none; /* 밑줄 제거 */
+    color: #007bff; /* 링크 색 */
+    font-weight: bold; /* 글씨 두껍게 */
+    display: block;
+    text-align: center;
+    height: 100%;
+    line-height: 50px;
+}
+
+/* 링크 호버 효과 */
+nav a:hover {
+    color: #0056b3; /* 호버시 색 변화 */
+    text-decoration: underline; /* 호버시 밑줄 */
+    background-color: #eee;
+    border-radius: 10px;
+}
+nav a.active {
+	color: red;
+	background-color: #555;
+	border-radius: 10px;
+}
+.position {
+	position: absolute;
+	width: 150px;
+	right: 12%;
+}
+.position button{
+	position: absolute;
+	right: 0;
+	top: 20px;
+	background-image: url(../image/home.png);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-size: contain;
+}
+#timerDisplay {
+	color: blue;
+}
+#sessionTimer {
+	text-align: right;	
+}
